@@ -12,7 +12,7 @@ import "./StoreageState.sol";
 contract ImportStatement{
     uint16 newNum;
 
-    function ImportStatement (uint16 num1) public {
+    constructor (uint16 num1) {
         newNum = num1;
     }
 
@@ -20,7 +20,7 @@ contract ImportStatement{
         newNum = num2;
     }
 
-    function getNum() public veiw returns (uint16){
+    function getNum() public view returns (uint16){
         return newNum;
     }
 }

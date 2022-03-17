@@ -1,0 +1,197 @@
+{
+  "contractName": "MultiLineComment",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MultiLineComment.sol\":\"MultiLineComment\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MultiLineComment.sol\":{\"keccak256\":\"0xc783495fe7700f50af0f2d24769892c57f8fe8633e939775f91ca41c32a3a25d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ca887079b84238961f516818a4c83f5aeaf0601f8d2bd233e9866cf1f68d387\",\"dweb:/ipfs/QmNwLSgsBvFEvjbacigtkFiti1Qq6ABte4ZJYXwsGewojV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220792e1e9d767224898c8f7bf93e3c1e057ee5666a2e2c4eb574bcb00f531a150f64736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220792e1e9d767224898c8f7bf93e3c1e057ee5666a2e2c4eb574bcb00f531a150f64736f6c634300080c0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "71:140:4:-:0;;;192:16;;;;;;;;;;71:140;;;;;;",
+  "deployedSourceMap": "71:140:4:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity >=0.4.17 <0.9.0;\r\n\r\ncontract MultiLineComment {\r\n    /*\r\n        This is a dummy contract\r\n        with multiline commant\r\n    \r\n    */\r\n    constructor() {}\r\n}\r\n",
+  "sourcePath": "F:\\DEV-BLOCKCHAIN\\solidity-demo\\soldemo\\contracts\\MultiLineComment.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MultiLineComment.sol",
+    "exportedSymbols": {
+      "MultiLineComment": [
+        154
+      ]
+    },
+    "id": 155,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 149,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".17",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:32:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MultiLineComment",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 154,
+        "linearizedBaseContracts": [
+          154
+        ],
+        "name": "MultiLineComment",
+        "nameLocation": "80:16:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 152,
+              "nodeType": "Block",
+              "src": "206:2:4",
+              "statements": []
+            },
+            "id": 153,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 150,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "203:2:4"
+            },
+            "returnParameters": {
+              "id": 151,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "206:0:4"
+            },
+            "scope": 154,
+            "src": "192:16:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 155,
+        "src": "71:140:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:178:4"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/MultiLineComment.sol",
+    "exportedSymbols": {
+      "MultiLineComment": [
+        154
+      ]
+    },
+    "id": 155,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 149,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".17",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:32:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MultiLineComment",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 154,
+        "linearizedBaseContracts": [
+          154
+        ],
+        "name": "MultiLineComment",
+        "nameLocation": "80:16:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 152,
+              "nodeType": "Block",
+              "src": "206:2:4",
+              "statements": []
+            },
+            "id": 153,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 150,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "203:2:4"
+            },
+            "returnParameters": {
+              "id": 151,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "206:0:4"
+            },
+            "scope": 154,
+            "src": "192:16:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 155,
+        "src": "71:140:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:178:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.12+commit.f00d7308.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-03-17T11:55:27.636Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
