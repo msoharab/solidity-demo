@@ -1,4 +1,5 @@
-//SPDX-License-Identifier: QUINTA EULA 0.0.1
+//SPDX-License-Identifier: MIT
+
 pragma solidity >=0.4.22 <0.9.0;
 
 import "./Migrations.sol";
@@ -8,6 +9,10 @@ contract StorageState {
     bool flag = true;
     address public owner;
     
+    constructor (bool Iflag) {
+        flag = Iflag;
+    }
+
     function set(uint256 num) public {
         stateData = num;
     }
